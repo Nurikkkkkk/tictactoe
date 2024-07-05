@@ -205,7 +205,7 @@ int main(){
 			else if(option == 2){
 				char player = 'o', comp = 'x';
 				int row = 0, column = 0; 
-				std::cout << "Computer makes its move..." << std::endl;
+				std::cout << "Computer makes its move...NurikGay" << std::endl;
 				std::vector<int> compMove = bestMove(board, comp); 
 				board[compMove[0]][compMove[1]] = comp;
 				if(winner(board) == 10){
